@@ -6,7 +6,7 @@ noticiaCtrl.nuevonoticia = async (req,res)=>{
     try{
         const noticiaNueva = new Noticia({
             titulo: req.body.titulo,
-            subtitulo: req.body.subtitulo,
+            subTitulo: req.body.subTitulo,
             imagenPrincipal: req.body.imagenPrincipal,
             desarrollo:req.body.desarrollo,
             autor: req.body.autor,
